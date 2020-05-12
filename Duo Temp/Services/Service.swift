@@ -9,7 +9,7 @@ import Foundation
 
 class Services {
     
-    let apiID = "9c5e1b66a35fcd8d1056172c3ba81bcc"
+    let apiID = 
     
     func getWeatherData(city: String, completion: @escaping (ForecastWeatherResponse?)->()) {
         
